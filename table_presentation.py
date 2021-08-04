@@ -26,7 +26,7 @@ def parse_options(args):
     parser.add_argument("-ep", "--endpoint",
                         action="store", dest="endpoint",
                         type=str,
-                        help="Provide publich end point")
+                        help="Provide public end point")
 
     args = globals()["options"] = parser.parse_args(args)
 
